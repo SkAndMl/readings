@@ -1,5 +1,8 @@
 * deepseek-r1-zero and deepseek-r1 trained using rl instead of sft
 * deepseek-r1-zero has "intriguing reasoning behaviours" but struggles with poor readability and language mixing.
+* *DeepSeek-R1-Zero encounters challenges such as poor readability, and language mixing* - my thought is that deepseek-r1-zero might be the most important result of the paper. language mixing and poor readability
+are from a human pov, for the model it might be a mode of communication.
+
 * to get deepseek-r1, they take deepseek-v3 put it through the following:
     1. finetune with some cold start data to fix language mixing and readability issues 
     2. reasoning oriented RL
